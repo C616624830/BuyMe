@@ -1,0 +1,127 @@
+
+<!--
+Login Style sheet
+ Pages:
+	login.jsp
+	signUp.jsp
+	auth.jsp
+	failAuth.jsp
+-->
+	
+	:root { 
+	-blue: #007bff; -
+	-indigo: #6610f2; -
+	-purple: #6f42c1; -
+	-pink: #e83e8c; -
+	-red: #dc3545; -
+	-orange: #fd7e14; -
+	-yellow: #ffc107; -
+	-green: #28a745; -
+	-teal: #20c997; -
+	-cyan: #17a2b8; -
+	-white: #fff; -
+	-gray: #6c757d; -
+	-gray-dark: #343a40; -
+	-primary: #007bff; -
+	-primary-color: #26E8BD; -
+	-secondary: #6c757d; -
+	-success: #28a745; -
+	-info: #17a2b8; -
+	-warning: #ffc107; -
+	-danger: #dc3545; -
+	-light: #f8f9fa; -
+	-dark: #343a40;
+}
+
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+    overflow: hidden;
+}
+
+.container {
+	background: linear-gradient(135deg, #5A7A9600, var(--primary-color));
+	height: 1000px;
+	background-size: auto;
+	background-color: #22313f;
+	overflow-y: hidden;
+}
+
+.LoginHead {
+	background-color: #e8e8e8;
+	color: white;
+	font-size: 24px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+}
+
+.Welcome {
+	text-align: center;
+	font-size: 32px;
+	transform: translate(0px, 200px);
+	color: white;
+}
+
+.login {
+	height: 360px;
+	width: 320px;
+	background-color: #333333;
+	border: 2px solid grey;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 30px 30px !important;
+	transform: translate(0%, 50%);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.login P {
+	font-size: 18px;
+	align: left;
+	color: white;
+}
+
+.login input[type="text"], input[type="password"] {
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: transparent;
+ 	outline: none;
+    color: #fff;
+    font-size: 16px;
+    width: 250px;
+}
+
+.login input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	width: 250px;
+}
+
+.login input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+ }
+ 
+ .signUp{
+ 	font-size: 14px;
+ 	color: grey;
+ }
+ 
+ .signUp a:link{
+ 	color: #fef160;
+ 	text-decoration: none;
+ }
+ .signUp a:hover{
+ 	color: yellow;
+ }
+ 
+ .signUp a:visited{
+ 	color: #fef160;
+ }

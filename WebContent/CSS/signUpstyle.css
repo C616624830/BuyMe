@@ -1,0 +1,74 @@
+.container {
+	background: linear-gradient(135deg, #5A7A9600, var(--primary-color));
+	height: 1000px;
+	background-size: auto;
+	background-color: #22313f;
+	overflow-y: hidden;
+}
+
+.Welcome{
+	text-align: center;
+	font-size: 32px;
+	transform: translate(0px, 100px);
+	color: white;
+}
+
+.login{
+	height: 440px;
+	width: 320px;
+	background-color: #333333;
+	border: 2px solid grey;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 70px 30px !important;
+	transform: translate(0%, 25%);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login P{
+	font-size: 18px;
+	align: left;
+	color: white;
+}
+
+.login input[type="text"], input[type="password"] {
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background: transparent;
+ 	outline: none;
+    color: #fff;
+    font-size: 16px;
+    width: 250px;
+}
+
+.login input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	width: 250px;
+}
+
+.login input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #ffc107;
+	color: #000;
+ }
+ 
+ .signUp{
+ 	font-size: 14px;
+ 	color: grey;
+ }
+ 
+ .signUp a:link{
+ 	color: pink;
+ }
+ .signUp a:hover{
+ 	color: yellow;
+ }
+ 
+ .signUp a:visited{
+ 	color: firebrick;
+ }

@@ -1,0 +1,96 @@
+body{
+	 overflow: hidden;
+}
+
+* -- Manipulates all path styles  --> */
+path .st0, .st1, .st2, .st3, .st4 {
+    stroke: rgba(72, 88, 99, 1);
+    stroke-dasharray: 1800;
+    opacity: 10;
+    animation: animate 4s cubic-bezier(1,1,1,.1);
+} 
+ 
+@keyframes animate {
+    0%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+    30%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+        
+     90%{
+        fill: rgba(108, 158, 164, 0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(108, 158, 164, 1);
+        stroke-dashoffset: 0;
+    }
+ 
+}
+
+
+.container{
+	height: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-image: radial-gradient( white 1% , #048ba8);
+}
+.left{
+	width: 50%;
+	height: 1000px;
+	/*background-image: linear-gradient(to left, rgb(255,190,11) , blue);*/
+	float: left;
+	padding-top: 30%;
+ 
+}
+.left p{
+	padding-left: 80%;
+}
+
+.right{
+	width: 50%;
+	height: 1000px;
+	 /*background-image: linear-gradient(to right, rgb(255,190,11) , red);*/
+	float: right;
+  padding-top: 30%;	
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: solid 1px black;
+
+}
+
+.right p{
+	padding-right: 80%;
+}
+.mainLogo{
+height: 250px;
+width: 250px;
+overflow: auto;
+margin: auto;
+position: absolute;
+right: 50vh;
+top: 25vh;
+z-index: 1;
+left: 50vh;
+}
+
+.mainText{
+	text-align: center; 
+	font-size: 24px; 
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-decoration: none !important;
+	vertical-align: middle;   
+}
+
+.mainTest a{
+	color: orange;
+}

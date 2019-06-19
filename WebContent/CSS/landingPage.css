@@ -1,0 +1,26 @@
+.desc{
+	padding: 2em;
+	font-size: 24px;
+	font-weight: 350;
+	background-color: firebrick;
+	color: white;
+}
+.listContainer{
+	background-color: #ccc;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.attributes{
+	background-color: #fcfcfc;
+	position: relative;
+	width: 20%;
+	float: left;
+}
+
+.listContent{
+	background-color: #cfcfcf;
+	width: 80%;
+}
